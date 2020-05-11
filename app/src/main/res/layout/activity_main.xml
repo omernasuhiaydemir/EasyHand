@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/gri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mavi"
+            android:text="Egzersizler"
+            android:textColor="@color/beyaz"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/open_sans_bold"></TextView>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:id="@+id/egzersiz_1_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/border_button">
+
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/egzersiz_gorsel_1"></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Egzersiz 1"
+                    android:textColor="@color/mavi"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:textSize="18sp"></TextView>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Serçe parmak egzersizi"
+                    android:fontFamily="@font/open_sans"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/egzersiz_2_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/egzersiz_gorsel_2"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egzersiz 2"
+                        android:textColor="@color/mavi"
+
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textSize="18sp"></TextView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serçe parmak egzersizi"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/egzersiz_3_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/egzersiz_gorsel_1"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egzersiz 3"
+                        android:textColor="@color/mavi"
+
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textSize="18sp"></TextView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serçe parmak egzersizi"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/egzersiz_4_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/egzersiz_gorsel_2"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egzersiz 4"
+                        android:textColor="@color/mavi"
+
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textSize="18sp"></TextView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serçe parmak egzersizi"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/egzersiz_5_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/egzersiz_gorsel_1"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egzersiz 5"
+                        android:textColor="@color/mavi"
+
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textSize="18sp"></TextView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serçe parmak egzersizi"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/egzersiz_6_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/egzersiz_gorsel_2"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egzersiz 6"
+                        android:textColor="@color/mavi"
+
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textSize="18sp"></TextView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serçe parmak egzersizi"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/egzersiz_7_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/egzersiz_gorsel_1"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egzersiz 7"
+                        android:textColor="@color/mavi"
+
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textSize="18sp"></TextView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serçe parmak egzersizi"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/egzersiz_8_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/egzersiz_gorsel_2"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egzersiz 8"
+                        android:textColor="@color/mavi"
+
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textSize="18sp"></TextView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serçe parmak egzersizi"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/egzersiz_9_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/egzersiz_gorsel_1"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egzersiz 9"
+                        android:textColor="@color/mavi"
+
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textSize="18sp"></TextView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serçe parmak egzersizi"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/egzersiz_10_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/egzersiz_gorsel_2"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egzersiz 10"
+                        android:textColor="@color/mavi"
+
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:textSize="18sp"></TextView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serçe parmak egzersizi"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
+
+
+

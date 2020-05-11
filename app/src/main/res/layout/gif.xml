@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/mavi"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egzersiz 1"
+            android:fontFamily="@font/open_sans_bold"
+            android:textSize="20sp"
+            android:textColor="@color/beyaz"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            ></TextView>
+
+
+
+        <Button
+            android:id="@+id/örnek_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_button_beyaz"
+            android:text="Örnek"
+            android:textColor="@color/beyaz"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="@font/open_sans_semibold"></Button>
+
+
+    </LinearLayout>
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/animated"
+        />
+
+</LinearLayout>

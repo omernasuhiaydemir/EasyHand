@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/gri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/logo"></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:fontFamily="@font/open_sans_bold"
+        android:textSize="24sp"
+        android:textColor="@color/siyah_text_color"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"></TextView>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp">
+
+
+
+        <EditText
+            android:id="@+id/e_mail_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="E-mail"
+            android:paddingLeft="55dp"
+            android:focusable="true"
+            android:textSize="16sp"
+
+            android:inputType="text|textVisiblePassword|textNoSuggestions"
+            android:textColorHint="@color/log_in_gri"
+            android:textColor="@color/log_in_gri"
+            android:importantForAutofill="no"
+            android:fontFamily="@font/open_sans_bold"
+            android:background="@drawable/border_button"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:drawablePadding="10dp"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/mail_icon"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/mail"></ImageView>
+
+
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="60dp">
+
+
+
+        <EditText
+            android:id="@+id/sifre_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:paddingLeft="55dp"
+            android:textSize="16sp"
+            android:focusable="true"
+
+            android:textColorHint="@color/log_in_gri"
+            android:textColor="@color/log_in_gri"
+
+            android:fontFamily="@font/open_sans_bold"
+            android:background="@drawable/border_button"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:drawablePadding="10dp"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/kilit_icon"
+            android:layout_width="22dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/sifre"></ImageView>
+
+
+
+
+        <Button
+
+            android:id="@+id/goz_button"
+            android:layout_width="28dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:padding="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/goz"></Button>
+
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Giriş Yap"
+        android:textColor="@color/beyaz"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/gradient_button"
+        ></Button>
+
+
+    <TextView
+        android:id="@+id/error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Şifreni mi unuttun?"
+        android:fontFamily="@font/open_sans_bold"
+        android:textColor="@color/mor"></TextView>
+
+
+
+
+</LinearLayout>
+
+
+
